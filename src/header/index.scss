@@ -1,0 +1,36 @@
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0059e0;
+  height: 28px;
+  padding: 20px;
+
+  .container-header__left-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+
+    p {
+      color: white;
+    }
+  }
+
+  .container-header__login {
+    display: flex;
+    gap: 20px;
+
+    p {
+      font-size: 22px;
+      cursor: pointer;
+      color: white;
+    }
+  }
+
+  .icons {
+    font-size: 34px;
+    color: white;
+  }
+}
